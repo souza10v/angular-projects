@@ -1,3 +1,25 @@
+# Bytbank - Cadastro de Transferências
+
+Este é um aplicativo Angular para cadastro de transferências, onde você pode registrar transferências com valores e contas de destino.
+
+## Estrutura do Projeto
+
+A estrutura do projeto é a seguinte:
+
+angular-projects/
+└── bybank/
+└── src/
+└── app/
+├── extrato/
+├── models/
+├── nova-transferencia/
+├── services/
+├── app-routing.module.ts
+├── app.component.html
+├── app.component.scss
+├── app.component.spec.ts
+├── app.component.ts
+└── app.module.ts
 
 - **extrato/**: Contém componentes relacionados ao extrato de transferências.
 - **models/**: Contém modelos de dados utilizados no aplicativo.
