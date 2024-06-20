@@ -86,4 +86,4 @@ Para dúvidas ou sugestões, entre em contato pelo email: [seu-email@exemplo.com
 
 ---
 
-*Este projeto é um exemplo de um sistema de cadastro de transferências utilizando Angular.*
+
