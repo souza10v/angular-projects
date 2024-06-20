@@ -13,7 +13,6 @@
       "postId": 1
     }
   ],
-  
   "enquiry": [
     {
       "id": 1,
@@ -24,6 +23,40 @@
       "id": 2,
       "body": "some enquiry",
       "postId": 1
+    },
+    {
+      "firstName": "Nome",
+      "lastName": "Sobrenome",
+      "email": "01@emai.com",
+      "mobile": "232",
+      "weight": 22,
+      "height": 21,
+      "bmi": 0.05,
+      "bmiResult": "Underweight",
+      "gender": "Male",
+      "requireTrainer": "No",
+      "package": "",
+      "important": "",
+      "haveGymBefore": "",
+      "enquiryDate": "",
+      "id": 3
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "mobile": "",
+      "weight": "",
+      "height": "",
+      "bmi": "",
+      "bmiResult": "",
+      "gender": "",
+      "requireTrainer": "",
+      "package": "",
+      "important": "",
+      "haveGymBefore": "",
+      "enquiryDate": "",
+      "id": 4
     }
   ],
   "profile": {

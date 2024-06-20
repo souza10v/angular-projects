@@ -19,6 +19,8 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
 import { FormBuilder, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { MatTableModule } from '@angular/material/table';
+import {MatPaginatorModule} from '@angular/material/paginator';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,7 @@ import { HttpClientModule } from '@angular/common/http';
     NgToastModule,
     NgConfirmModule,
     ReactiveFormsModule,
-    
+
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
@@ -44,8 +46,10 @@ import { HttpClientModule } from '@angular/common/http';
     MatSelectModule,
     MatDatepickerModule,
     MatNativeDateModule,
-    HttpClientModule
-    
+    HttpClientModule,
+    MatTableModule,
+    MatPaginatorModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
