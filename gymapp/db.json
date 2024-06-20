@@ -15,19 +15,9 @@
   ],
   "enquiry": [
     {
-      "id": 1,
-      "body": "some enquiry",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "some enquiry",
-      "postId": 1
-    },
-    {
-      "firstName": "Nome",
-      "lastName": "Sobrenome",
-      "email": "01@emai.com",
+      "firstName": "Nome1",
+      "lastName": "Sobrenome1",
+      "email": "01@email.com",
       "mobile": "232",
       "weight": 22,
       "height": 21,
@@ -39,24 +29,84 @@
       "important": "",
       "haveGymBefore": "",
       "enquiryDate": "",
-      "id": 3
+      "id": 1
     },
     {
-      "firstName": "",
-      "lastName": "",
-      "email": "",
-      "mobile": "",
-      "weight": "",
-      "height": "",
-      "bmi": "",
-      "bmiResult": "",
-      "gender": "",
-      "requireTrainer": "",
+      "firstName": "Nome2",
+      "lastName": "Sobrenome2",
+      "email": "02@email.com",
+      "mobile": "232",
+      "weight": 22,
+      "height": 21,
+      "bmi": 0.05,
+      "bmiResult": "Underweight",
+      "gender": "Female",
+      "requireTrainer": "No",
       "package": "",
       "important": "",
       "haveGymBefore": "",
       "enquiryDate": "",
+      "id": 2
+    },
+    {
+      "firstName": "Nome1",
+      "lastName": "S1",
+      "email": "n1@h",
+      "mobile": "32132132",
+      "weight": 123,
+      "height": 3,
+      "bmi": 13.67,
+      "bmiResult": "Underweight",
+      "gender": "Female",
+      "requireTrainer": "No",
+      "package": "Quarterly",
+      "important": [
+        "Energy and Endurance",
+        "Building Lean Muscle"
+      ],
+      "haveGymBefore": "No",
+      "enquiryDate": "2024-06-19T03:00:00.000Z",
+      "id": 3
+    },
+    {
+      "firstName": "Nome1",
+      "lastName": "S1",
+      "email": "n1@h",
+      "mobile": "32132132",
+      "weight": 123,
+      "height": 3,
+      "bmi": 13.67,
+      "bmiResult": "Underweight",
+      "gender": "Female",
+      "requireTrainer": "No",
+      "package": "Quarterly",
+      "important": [
+        "Energy and Endurance",
+        "Building Lean Muscle"
+      ],
+      "haveGymBefore": "No",
+      "enquiryDate": "2024-06-19T03:00:00.000Z",
       "id": 4
+    },
+    {
+      "firstName": "Nome1",
+      "lastName": "S1",
+      "email": "n1@h",
+      "mobile": "32132132",
+      "weight": 123,
+      "height": 3,
+      "bmi": 13.67,
+      "bmiResult": "Underweight",
+      "gender": "Female",
+      "requireTrainer": "No",
+      "package": "Quarterly",
+      "important": [
+        "Energy and Endurance",
+        "Building Lean Muscle"
+      ],
+      "haveGymBefore": "No",
+      "enquiryDate": "2024-06-19T03:00:00.000Z",
+      "id": 5
     }
   ],
   "profile": {

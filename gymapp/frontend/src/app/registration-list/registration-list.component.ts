@@ -4,6 +4,7 @@ import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource, MatTableModule } from '@angular/material/table';
 import { User } from '../models/user.model';
 import { ApiService } from '../services/api.service';
+import { Route, Router } from '@angular/router';
 
 @Component({
   selector: 'app-registration-list',
@@ -19,11 +20,12 @@ export class RegistrationListComponent implements OnInit {
   @ViewChild(MatSort) sort!: MatSort;
   displayedColumns: string[] = ['id', 'firstName', 'lastName', 'email', 'mobile', 'bmiResult', 'gender', 'package', 'enquiryDate', 'action'];
 
-  constructor(private api: ApiService){
+  constructor(
+    private api: ApiService, private router: Router){
 
   }
   ngOnInit(): void {
-    this.getUsers()
+    this.getUsers();
   }
 
   getUsers(){
@@ -34,6 +36,19 @@ export class RegistrationListComponent implements OnInit {
       this.dataSource.paginator = this.paginator;
       this.dataSource.sort = this.sort;
     })
+  }
+
+  applyFilter(event: Event) {
+    const filterValue = (event.target as HTMLInputElement).value;
+    this.dataSource.filter = filterValue.trim().toLowerCase();
+
+    if (this.dataSource.paginator) {
+      this.dataSource.paginator.firstPage();
+    }
+  }
+
+  edit(id: number){
+    this.router.navigate(['update', id]);
   }
 }
 
