@@ -4,7 +4,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CreateRegistrationComponent } from './create-registration/create-registration.component';
-import { RegistrationListComponent } from './registration-list/registration-list.component';
+import { ConfirmDelete, RegistrationListComponent } from './registration-list/registration-list.component';
 import { UserDetailComponent } from './user-detail/user-detail.component';
 import { NgToastModule } from 'ng-angular-popup';
 import { NgConfirmModule } from 'ng-confirm-box';
@@ -24,13 +24,15 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatCardModule } from '@angular/material/card';
 import { MatListModule } from '@angular/material/list';
 import { MatChipsModule } from '@angular/material/chips';
+import {MatDialogModule} from '@angular/material/dialog';
 
 @NgModule({
   declarations: [
     AppComponent,
     CreateRegistrationComponent,
     RegistrationListComponent,
-    UserDetailComponent
+    UserDetailComponent,
+    ConfirmDelete
   ],
   imports: [
     BrowserModule,
@@ -54,7 +56,8 @@ import { MatChipsModule } from '@angular/material/chips';
     MatPaginatorModule,
     MatCardModule,
     MatListModule,
-    MatChipsModule
+    MatChipsModule,
+    MatDialogModule
 
   ],
   providers: [],

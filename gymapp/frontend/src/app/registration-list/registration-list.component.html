@@ -81,7 +81,7 @@
                 <button (click)="edit(row.id)" mat-icon-button color="accent">
                     <mat-icon>edit</mat-icon>
                 </button>
-                <button mat-icon-button color="primary">
+                <button mat-icon-button color="primary" (click)="openDialog(row.id)">
                     <mat-icon>delete</mat-icon>
                 </button>
             </td>
